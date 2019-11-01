@@ -72,7 +72,7 @@ func main() {
 
 To run the program, navigate to the directory in your terminal and run the `go run .` command.
 
-### Text Editor
+### <img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/vs-code.png" alt="VS code image" height="75" /> Text Editor
 
 You are free to use whatever text editor you want for Go. After all the code is just plain text.
 I prefer to use [Visual Studio Code](https://code.visualstudio.com/). Other common options are
