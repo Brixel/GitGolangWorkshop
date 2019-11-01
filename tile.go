@@ -20,5 +20,6 @@ type Tile struct {
 
 // String formats a TyleType as a string. It returns the enum name.
 func (t TileType) String() string {
+	// THIS IS THE METHODS
 	return "TODO format Tile"
 }
