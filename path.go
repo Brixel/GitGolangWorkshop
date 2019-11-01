@@ -21,6 +21,7 @@ type Path []*Coordinate
 
 // Last returns the pointer to the last Coordinate of the Path.
 func (p Path) Last() *Coordinate {
+	// THIS IS THE METHODS
 	return nil
 }
 
