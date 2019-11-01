@@ -1,5 +1,7 @@
 # GitGolangWorkshop
 
+[Golang Github image](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/git-go.png)
+
 Code from the workshop about Git and Golang on 2019-11-03
 
 We have a workshop about Golang and also some Git on Sunday 3 november.
@@ -12,6 +14,8 @@ To follow the workshop, you will need some programs to participate:
 - [Git](https://git-scm.com/downloads)
 - [Golang](https://golang.org/dl/)
 - A text editor to program Go (I will use [Visual Studio Code](https://code.visualstudio.com/download))
+
+[Git logo](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/git.png)
 
 ### Git
 
@@ -32,6 +36,8 @@ staging areas, and multiple workflows.
 - Debian based: `sudo apt install git`
 - Arch based: `sudo pacman -S git`
 - Red Hat based: `sudo yum install git`
+
+[Git logo](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/go-gopher.png)
 
 ### Golang
 
@@ -71,13 +77,15 @@ To run the program, navigate to the directory in your terminal and run the `go r
 ### Text Editor
 
 You are free to use whatever text editor you want for Go. After all the code is just plain text.
-I prefer to use [Visual Studio Code](https://code.visualstudio.com/). Other common options are 
-[The Go Playground](https://play.golang.org/), [GoLand](https://www.jetbrains.com/go/), 
+I prefer to use [Visual Studio Code](https://code.visualstudio.com/). Other common options are
+[The Go Playground](https://play.golang.org/), [GoLand](https://www.jetbrains.com/go/),
 [Atom](https://ide.atom.io/), [Vim](https://www.vim.org/),...
 
 For all these editors, plugins can be found ([plugins](https://golang.org/doc/editors.html)).
 
 ### Debugging
+
+[Git logo](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/delve.png)
 
 The most commonly used debbuger for go is [delve](https://github.com/go-delve/delve). You can
 install the debugger with a `go get` command: `go get -u github.com/go-delve/delve/cmd/dlv`.
