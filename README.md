@@ -1,6 +1,6 @@
 # GitGolangWorkshop
 
-[Golang Github image](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/git-go.png)
+<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/git-go.png" alt="Golang Github image" width="200" />
 
 Code from the workshop about Git and Golang on 2019-11-03
 
@@ -15,7 +15,7 @@ To follow the workshop, you will need some programs to participate:
 - [Golang](https://golang.org/dl/)
 - A text editor to program Go (I will use [Visual Studio Code](https://code.visualstudio.com/download))
 
-[Git logo](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/git.png)
+<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/git.png" alt="Golang Github image" height="75" />
 
 ### Git
 
@@ -37,7 +37,9 @@ staging areas, and multiple workflows.
 - Arch based: `sudo pacman -S git`
 - Red Hat based: `sudo yum install git`
 
-[Git logo](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/go-gopher.png)
+<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/golang.png" alt="Golang image" height="75" />
+
+<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/gopher.png" alt="Golang Gopher image" height="75" />
 
 ### Golang
 
@@ -85,7 +87,7 @@ For all these editors, plugins can be found ([plugins](https://golang.org/doc/ed
 
 ### Debugging
 
-[Git logo](https://raw.githubusercontent.com/Brixel/GitGolangWorkshop/.github/delve.png)
+<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/delve.png" alt="Golang Github image" height="75" />
 
 The most commonly used debbuger for go is [delve](https://github.com/go-delve/delve). You can
 install the debugger with a `go get` command: `go get -u github.com/go-delve/delve/cmd/dlv`.
