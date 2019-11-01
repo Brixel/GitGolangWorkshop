@@ -59,6 +59,7 @@ func FromFile(path string) (*Maze, error) {
 // Range iterates over all the coordiantes of a Maze from x=0 to x=max
 // and y=0 to y=max. If the func f returns false the iteration is stopped.
 func (m *Maze) Range(f func(x, y int) bool) {
+	// THIS IS THE METHOD
 }
 
 // FindExists searches for all the exits or entrances of the maze and returns
