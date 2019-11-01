@@ -1,4 +1,4 @@
-package maze
+package gitGolangWorkshop
 
 // Coordinate is a struct that represents an X,Y coordinate.
 type Coordinate struct {

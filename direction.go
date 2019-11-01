@@ -1,4 +1,4 @@
-package maze
+package gitGolangWorkshop
 
 // Direction is an int enum that represents a direction in a maze
 // (North, East, South and West).
