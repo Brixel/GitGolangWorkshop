@@ -126,3 +126,72 @@ func TestExplore4x4(t *testing.T) {
 		t.Errorf("The length of the route should be 5, not %d", len(p))
 	}
 }
+
+func TestRange(t *testing.T) {
+	m, err := FromFile("./mazes/4x4.maze")
+	if err != nil {
+		t.Error(err)
+		return
+	}
+
+	var count int
+	m.Range(func(x, y int) bool {
+		count++
+		return false
+	})
+
+	if count != 16 {
+		t.Errorf("Ranges counts to 16 not %d", count)
+	}
+
+	count = 0
+	m.Range(func(x, y int) bool {
+		count++
+		return count == 10
+	})
+
+	if count != 10 {
+		t.Errorf("The range is terminated when the count is 10 not %d", count)
+	}
+}
+
+func TestFindExits(t *testing.T) {
+	m, err := FromFile("./mazes/4x4.maze")
+	if err != nil {
+		t.Error(err)
+		return
+	}
+
+	if len(m.Exits) != 2 {
+		t.Errorf("There are 2 exits, not %d", len(m.Exits))
+	}
+
+	if m.Exits[0].Coordinate.X != 1 || m.Exits[0].Coordinate.Y != 0 {
+		t.Errorf("The first exit has (X,Y)(1,0), not (%d, %d)", m.Exits[0].Coordinate.X, m.Exits[0].Coordinate.Y)
+	}
+	if m.Exits[1].Coordinate.X != 2 || m.Exits[1].Coordinate.Y != 3 {
+		t.Errorf("The first exit has (X,Y)(2,3), not (%d, %d)", m.Exits[1].Coordinate.X, m.Exits[1].Coordinate.Y)
+	}
+}
+
+func TestLook(t *testing.T) {
+	m, err := FromFile("./mazes/4x4.maze")
+	if err != nil {
+		t.Error(err)
+		return
+	}
+
+	tileType, tile := m.Look(South, m.Map[0][1], Path{})
+	if tileType != Wall {
+		t.Errorf("We are looking at a wall, not %s", tileType)
+	}
+
+	if tile.Y != 1 {
+		t.Errorf("We moved south. The tile should be at Y=1 not %d", tile.Y)
+	}
+
+	tileType, tile = m.Look(South, m.Map[0][1], Path{&m.Map[1][1].Coordinate})
+	if tileType != Duplicate {
+		t.Errorf("We are looking at a wall, not %s", tileType)
+	}
+}
