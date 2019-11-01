@@ -31,5 +31,6 @@ func (p Path) Contains(x *Coordinate) bool {
 
 // String formats a path to a string. It visualizes the path in a 2D grid.
 func (p Path) String() string {
+	// THIS IS THE METHOD
 	return "TODO: format path"
 }
