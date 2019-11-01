@@ -23,18 +23,4 @@ s := d.String()
 
 ## Contains()
 
-Contains should return whether a `Direction` is present in the `Directions`. 
-
-### Example
-
-``` golang
-ds := Directions{
-    North,
-    East,
-}
-t := ds.Contains(North)
-f := ds.Contains(East)
-```
-
-`t` should be `true` and `f` should be `false`
-
+Contains should return whether a `Direction` is present in the `Directions`.
