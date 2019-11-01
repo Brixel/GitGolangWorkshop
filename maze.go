@@ -64,6 +64,7 @@ func (m *Maze) Range(f func(x, y int) bool) {
 // FindExists searches for all the exits or entrances of the maze and returns
 // the pointers to them in a slice.
 func (m *Maze) FindExits() []*Tile {
+	// THIS IS THE METHODS
 	return nil
 }
 
