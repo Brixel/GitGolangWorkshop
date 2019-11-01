@@ -80,6 +80,7 @@ func (m *Maze) WaitForExplorers(explorers []chan []Path) []Path {
 // Look looks to a direcion (to) from a location (at) and returns what you
 // are looking at (TileType) and the pointer to the Tile you are looking at.
 func (m *Maze) Look(to Direction, at *Tile, p Path) (TileType, *Tile) {
+	// THIS IS THE METHDOS
 	return 0, nil
 }
 
