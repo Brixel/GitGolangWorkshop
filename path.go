@@ -26,6 +26,7 @@ func (p Path) Last() *Coordinate {
 
 // Contains checks whether a path goes through a given coordinate.
 func (p Path) Contains(x *Coordinate) bool {
+	// THIS IS THE METHODS
 	return false
 }
 
