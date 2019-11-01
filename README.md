@@ -64,3 +64,16 @@ func main() {
 ```
 To run the program, navigate to the directory in your terminal and run the `go run .` command.
 
+### Text Editor
+
+You are free to use whatever text editor you want for Go. After all the code is just plain text.
+I prefer to use [Visual Studio Code](https://code.visualstudio.com/). Other common options are 
+[The Go Playground](https://play.golang.org/), [GoLand](https://www.jetbrains.com/go/), 
+[Atom](https://ide.atom.io/), [Vim](https://www.vim.org/),...
+
+For all these editors, plugins can be found ([plugins](https://golang.org/doc/editors.html)).
+
+### Debugging
+
+The most commonly used debbuger for go is [delve](https://github.com/go-delve/delve). You can
+install the debugger with a `go get` command: `go get -u github.com/go-delve/delve/cmd/dlv`.
