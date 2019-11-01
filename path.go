@@ -13,6 +13,7 @@ func init() {
 // IsPath indicates whether a byte represents a wall or path segment
 // (a path can be ' ', '0' or the byte value 0).
 func IsPath(b byte) bool {
+	// THIS IS THE METHOD
 	return false
 }
 
