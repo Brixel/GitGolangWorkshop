@@ -85,5 +85,6 @@ func (m *Maze) Look(to Direction, at *Tile, p Path) (TileType, *Tile) {
 
 // String draws the maze as ascii characters as a 2D map.
 func (m *Maze) String() string {
+	// THIS IS THE METHODS
 	return "TODO format maze"
 }
