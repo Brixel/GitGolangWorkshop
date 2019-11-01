@@ -77,7 +77,7 @@ func (m *Maze) WaitForExplorers(explorers []chan []Path) []Path {
 	return nil
 }
 
-// Look looks to a direcion (to) from a location (at) and returns what the you
+// Look looks to a direcion (to) from a location (at) and returns what you
 // are looking at (TileType) and the pointer to the Tile you are looking at.
 func (m *Maze) Look(to Direction, at *Tile, p Path) (TileType, *Tile) {
 	return 0, nil
