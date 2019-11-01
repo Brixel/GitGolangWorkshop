@@ -37,9 +37,7 @@ staging areas, and multiple workflows.
 - Arch based: `sudo pacman -S git`
 - Red Hat based: `sudo yum install git`
 
-<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/golang.png" alt="Golang image" height="75" />
-
-<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/gopher.png" alt="Golang Gopher image" height="75" />
+<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/golang-gopher.png" alt="Golang image" height="75" />
 
 ### Golang
 
