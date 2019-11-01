@@ -15,9 +15,7 @@ To follow the workshop, you will need some programs to participate:
 - [Golang](https://golang.org/dl/)
 - A text editor to program Go (I will use [Visual Studio Code](https://code.visualstudio.com/download))
 
-<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/git.png" alt="Golang Github image" height="75" />
-
-### Git
+### <img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/git.png" alt="Golang Github image" height="75" /> Git 
 
 Git is a free and open source distributed version control system designed to handle everything from
 small to very large projects with speed and efficiency.
@@ -37,9 +35,9 @@ staging areas, and multiple workflows.
 - Arch based: `sudo pacman -S git`
 - Red Hat based: `sudo yum install git`
 
-<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/golang-gopher.png" alt="Golang image" height="75" />
 
-### Golang
+
+### <img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/golang-gopher.png" alt="Golang image" height="75" /> Golang
 
 The Go programming language is an open source project to make programmers more productive.
 
@@ -83,9 +81,7 @@ I prefer to use [Visual Studio Code](https://code.visualstudio.com/). Other comm
 
 For all these editors, plugins can be found ([plugins](https://golang.org/doc/editors.html)).
 
-### Debugging
-
-<img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/delve.png" alt="Golang Github image" height="75" />
+### <img src="https://github.com/Brixel/GitGolangWorkshop/raw/master/.github/delve.png" alt="Golang Github image" height="75" /> Debugging
 
 The most commonly used debbuger for go is [delve](https://github.com/go-delve/delve). You can
 install the debugger with a `go get` command: `go get -u github.com/go-delve/delve/cmd/dlv`.
