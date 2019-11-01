@@ -10,5 +10,6 @@ type Coordinate struct {
 
 // String formats the Coordinate to a string. It formats to (X, Y)
 func (c Coordinate) String() string {
+	// THIS IS THE METHODS
 	return "TODO: format coordinate"
 }
