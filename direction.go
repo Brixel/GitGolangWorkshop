@@ -40,5 +40,16 @@ func (ds Directions) Contains(find Direction) bool {
 
 // String formats the Direction. It returns the name of the enum value.
 func (d Direction) String() string {
-	return "TODO: format direction"
+	switch d {
+	case North:
+		return "North"
+	case East:
+		return "East"
+	case South:
+		return "South"
+	case West:
+		return "West"
+	default:
+		return "error , wrong direction"
+	}
 }
