@@ -137,7 +137,7 @@ func TestRange(t *testing.T) {
 	var count int
 	m.Range(func(x, y int) bool {
 		count++
-		return false
+		return true
 	})
 
 	if count != 16 {
@@ -147,7 +147,7 @@ func TestRange(t *testing.T) {
 	count = 0
 	m.Range(func(x, y int) bool {
 		count++
-		return count == 10
+		return count != 10
 	})
 
 	if count != 10 {
