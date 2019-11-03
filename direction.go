@@ -30,6 +30,11 @@ func init() {
 
 // Contains returns whether Directions contains a given direction.
 func (ds Directions) Contains(find Direction) bool {
+	for _, x := range ds {
+		if x == find {
+			return true
+		}
+	}
 	return false
 }
 
